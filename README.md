@@ -1,6 +1,7 @@
 # DataExtraction
 
 !pip install selenium
+
 from selenium.webdriver.common.by import By 
 
 from selenium import webdriver
@@ -8,17 +9,23 @@ from selenium import webdriver
 from time import sleep
 
 from selenium import webdriver
+
 from time import sleep
 
 chromeOptions = webdriver.ChromeOptions()
+
 chromeOptions.add_argument("--incognito")
+
 # chromeOptions.add_argument("--headless")  # Arka planda açık ve çalışmasını sağlıyor
 
 driver = webdriver.Chrome(options=chromeOptions)  # options olarak düzeltildi
+
 driver.maximize_window()        # Tam ekranda çalıştır
+
 driver.delete_all_cookies()     # Çerezleri Sil, Site açıldığı vakit çerezler çalışmayacak
 
 driver.get("https://tr.tradingview.com/symbols/BTCUSD/")
+
 driver.implicitly_wait(10)     # Site açıldığında bekleme süresi
 
 while True:
