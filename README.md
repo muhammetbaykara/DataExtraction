@@ -22,7 +22,7 @@ driver = webdriver.Chrome(options=chromeOptions)  # options olarak düzeltildi
 
 driver.maximize_window()        # Tam ekranda çalıştır
 
-driver.delete_all_cookies()     # Çerezleri Sil, Site açıldığı vakit çerezler çalışmayacak
+driver.delete_all_cookies()     # Çerezleri  Sil, Site açıldığı vakit çerezler çalışmayacak
 
 driver.get("https://tr.tradingview.com/symbols/BTCUSD/")
 
