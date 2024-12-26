@@ -64,6 +64,7 @@ Bugün itibariyle 15:40 UTC+3
 +1.011
 +0,95%
 Bugün itibariyle 16:02 UTC+3
+
 Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
 Requirement already satisfied: selenium in c:\anaconda\new\lib\site-packages (4.27.1)
 Requirement already satisfied: urllib3<3,>=1.26 in c:\anaconda\new\lib\site-packages (from urllib3[socks]<3,>=1.26->selenium) (2.2.3)
