@@ -33,7 +33,6 @@ while True:
     print(Fiyat_Bilgisi)
     sleep(3)
 
-
 106.964USD
 +891
 +0,84%
